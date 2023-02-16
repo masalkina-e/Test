@@ -1,0 +1,126 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+h1 {
+    padding: 100px 0 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-question {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.card-question-items {
+    width: 50%;
+}
+
+.title-question {
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.title-number-question {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.card-question-image {
+    width: 50%;
+    /* background-image: url(/images/singapore.png); */
+    border-radius: 10px;
+}
+
+.image {
+    border-radius: 10px;
+    object-fit: cover; 
+    object-position: top;
+    height: 200px;
+    width: 100%;
+}
+
+.answers-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.btn-answer {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #0ca092;
+    background-color: #edf3f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.btn-prev-next {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btn-prev-next.gray {
+    color: #C7C3C3;
+}
+
+.btn-result {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #0ba092;
+    background-color: #bde2de;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: #076159;
+    width: 140px;
+}
+
+.btn-repeat {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e66788;
+    background-color: #f7dfdf;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: #ab4e66;
+    width: 140px;
+}
+
+.btn-finish {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.text-result {
+    text-align: center;
+    font-style: italic; 
+    color: #076159;
+}
